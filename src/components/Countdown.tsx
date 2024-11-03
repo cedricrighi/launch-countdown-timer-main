@@ -7,7 +7,7 @@ export default function Countdown() {
   const [countdown, setCountdown] = useState<number>(1209543);
   const [prevCountdown, setPrevCountdown] = useState<number>(1209542);
   const [flipMinutes, setFlipMinutes] = useState<boolean>(false);
-  const [flipHours, setFlipHours] = useState<boolean>(false);
+  //const [flipHours, setFlipHours] = useState<boolean>(false);
 
   useEffect(() => {
     const interval = setInterval(() => {
